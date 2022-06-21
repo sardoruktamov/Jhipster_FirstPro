@@ -1,0 +1,8 @@
+{
+  "generator-jhipster:7.8.1": {
+    "promptValues": {
+      "packageName": "com.mohirdev.lesson",
+      "nativeLanguage": "uz-Latn-uz"
+    }
+  }
+}
