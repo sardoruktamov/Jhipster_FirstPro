@@ -22,7 +22,7 @@ const validations: any = {
     phoneNumber: {
       required,
     },
-    address: {
+    studentAddress: {
       required,
     },
   },

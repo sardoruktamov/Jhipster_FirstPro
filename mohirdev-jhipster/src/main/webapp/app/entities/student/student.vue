@@ -69,7 +69,7 @@
             <td>{{ student.age }}</td>
             <td>{{ student.birthOfDay ? $d(Date.parse(student.birthOfDay), 'short') : '' }}</td>
             <td>{{ student.phoneNumber }}</td>
-            <td>{{ student.address }}</td>
+            <td>{{ student.studentAddress }}</td>
             <td class="text-right">
               <div class="btn-group">
                 <router-link :to="{ name: 'StudentView', params: { studentId: student.id } }" custom v-slot="{ navigate }">

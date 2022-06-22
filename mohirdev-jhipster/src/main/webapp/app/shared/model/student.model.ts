@@ -5,7 +5,7 @@ export interface IStudent {
   age?: number | null;
   birthOfDay?: Date;
   phoneNumber?: string;
-  address?: string;
+  studentAddress?: string;
 }
 
 export class Student implements IStudent {
@@ -16,6 +16,6 @@ export class Student implements IStudent {
     public age?: number | null,
     public birthOfDay?: Date,
     public phoneNumber?: string,
-    public address?: string
+    public studentAddress?: string
   ) {}
 }

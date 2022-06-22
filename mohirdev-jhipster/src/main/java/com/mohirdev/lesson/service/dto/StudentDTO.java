@@ -25,7 +25,7 @@ public class StudentDTO implements Serializable {
     @NotNull
     private String phoneNumber;
 
-    private String address;
+    private String studentAddress;
 
     public Long getId() {
         return id;
@@ -75,12 +75,12 @@ public class StudentDTO implements Serializable {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getAddress() {
-        return address;
+    public String getStudentAddress() {
+        return studentAddress;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setStudentAddress(String studentAddress) {
+        this.studentAddress = studentAddress;
     }
 
     @Override

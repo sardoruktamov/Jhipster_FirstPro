@@ -116,11 +116,11 @@
               name="address"
               id="student-address"
               data-cy="address"
-              :class="{ valid: !$v.student.address.$invalid, invalid: $v.student.address.$invalid }"
-              v-model="$v.student.address.$model"
+              :class="{ valid: !$v.student.studentAddress.$invalid, invalid: $v.student.studentAddress.$invalid }"
+              v-model="$v.student.studentAddress.$model"
               required
             />
-            <div v-if="$v.student.address.$anyDirty && $v.student.address.$invalid">
+            <div v-if="$v.student.studentAddress.$anyDirty && $v.student.studentAddress.$invalid">
               <small class="form-text text-danger" v-if="!$v.student.address.required" v-text="$t('entity.validation.required')">
                 This field is required.
               </small>
