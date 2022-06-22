@@ -38,7 +38,17 @@ public class Student implements Serializable {
     @Column(name = "phone_number", nullable = false)
     private String phoneNumber;
 
-    // jhipster-needle-entity-add-field - JHipster will add fields here
+    @Column(name = "address")
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+// jhipster-needle-entity-add-field - JHipster will add fields here
 
     public Long getId() {
         return this.id;

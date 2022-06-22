@@ -52,6 +52,10 @@
               <span v-text="$t('mohirdevLessonApp.student.phoneNumber')">Phone Number</span>
               <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'phoneNumber'"></jhi-sort-indicator>
             </th>
+            <th scope="row" v-on:click="changeOrder('address')">
+              <span v-text="$t('mohirdevLessonApp.student.address')">Address</span>
+              <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'address'"></jhi-sort-indicator>
+            </th>
             <th scope="row"></th>
           </tr>
         </thead>
@@ -65,6 +69,7 @@
             <td>{{ student.age }}</td>
             <td>{{ student.birthOfDay ? $d(Date.parse(student.birthOfDay), 'short') : '' }}</td>
             <td>{{ student.phoneNumber }}</td>
+            <td>{{ student.address }}</td>
             <td class="text-right">
               <div class="btn-group">
                 <router-link :to="{ name: 'StudentView', params: { studentId: student.id } }" custom v-slot="{ navigate }">

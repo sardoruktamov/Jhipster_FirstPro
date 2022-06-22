@@ -18,11 +18,12 @@
         "title": "Student"
       },
       "id": "ID",
-      "name": "Name",
-      "lastName": "Last Name",
-      "age": "Age",
-      "birthOfDay": "Birth Of Day",
-      "phoneNumber": "Phone Number"
+      "name": "Ism",
+      "lastName": "Familya",
+      "age": "Yosh",
+      "birthOfDay": "Tug'ilgan kun",
+      "phoneNumber": "Telefon nomer",
+      "address": "Manzil"
     }
   }
 }

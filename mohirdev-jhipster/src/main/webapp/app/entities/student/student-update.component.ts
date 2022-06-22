@@ -22,6 +22,9 @@ const validations: any = {
     phoneNumber: {
       required,
     },
+    address: {
+      required,
+    },
   },
 };
 
